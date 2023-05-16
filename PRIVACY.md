@@ -1,8 +1,6 @@
 # Privacy Policy
 
-As soon as you visit [workloads.io](https://workloads.io/), we receive information about you.
-
-In this privacy statement we explain what we do with data we receive from you.
+> This document describes the Privacy Policy for [workloads.io](https://workloads.io/) and [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
@@ -18,10 +16,13 @@ In this privacy statement we explain what we do with data we receive from you.
     * [Right to object](#right-to-object)
     * [Right to be forgotten](#right-to-be-forgotten)
     * [Right to submit a complaint](#right-to-submit-a-complaint)
-  * [Which cookies do we use?](#which-cookies-do-we-use)
   * [What do we do with data of minors?](#what-do-we-do-with-data-of-minors)
   * [Do you have a question about this privacy policy?](#do-you-have-a-question-about-this-privacy-policy)
 <!-- TOC -->
+
+As soon as you visit [workloads.io](https://workloads.io/), we receive information about you.
+
+In this _privacy statement_, we explain what we do with data we receive from you.
 
 ## When do you apply this privacy statement?
 
@@ -82,7 +83,7 @@ If you are a minor when you visit our website, we assume that you have received 
 
 ## Do you have a question about this privacy policy?
 
-If you have a question about our privacy policy, please contact us via `privacy [at] workloads.io`.
+If you have a question about this privacy policy, email `privacy [at] workloads.io` and include the word `PRIVACY` in the subject line.
 
 ---
 
