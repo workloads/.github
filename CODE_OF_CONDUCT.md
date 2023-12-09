@@ -94,6 +94,6 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at [contributor-covenant.org/version/2/1/code_of_conduct/](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][https://github.com/mozilla/diversity].
+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
 For answers to common questions about this code of conduct, see the [FAQ](https://www.contributor-covenant.org/faq).
