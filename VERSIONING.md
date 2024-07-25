@@ -109,7 +109,6 @@ action = {
 }
 ```
 
-This configuration is expected to be written in the `actions_config` variable inside [`github-organization/variables.tf`](https://github.com/workloads/github-organization/blob/main/variables.tf).
 Define this configuration item in the `actions_config` variable inside [`github-organization/variables.tf`](https://github.com/workloads/github-organization/blob/main/variables.tf).
 
 Terraform [processes](https://github.com/workloads/github-organization/blob/main/actions.tf) the version constraint and retrieves the associated _committish_ to generate repository-specific Workflow templates.
