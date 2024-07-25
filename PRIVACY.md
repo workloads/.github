@@ -77,7 +77,7 @@ You may complain about the use of data we hold about you.
 
 ## What do we do with data of minors?
 
-We do not target minors with our website.
+We don't target minors with our website.
 
 If you are a minor when you visit our website, we assume that you have received parental permission before your visit.
 

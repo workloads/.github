@@ -14,7 +14,7 @@
 
 ## Policy Statement
 
-We take security concerns regarding any of our repositories seriously and appreciate your efforts to responsibly disclose your findings.
+We take security concerns for any of our repositories seriously and appreciate your efforts to responsibly disclose your findings.
 
 We will publicly acknowledge your contribution, if so desired.
 

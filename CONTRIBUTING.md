@@ -17,7 +17,7 @@ Please try to include as much information as you can. Details like these are inc
 * Any modifications you've made relevant to the bug
 * Anything unusual about your environment or deployment
 
-Where applicable, we use _Issue Templates_ to help you structure this information in an easy-to-digest way.
+Where applicable, we use _Issue Templates_ to help you structure this information in a clear way.
 
 ## Contributing via Pull Requests
 
@@ -29,4 +29,4 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 
 For additional information on creating pull requests, please see [help.github.com](https://help.github.com/articles/creating-a-pull-request/).
 
-Thank you!
+Thank you.

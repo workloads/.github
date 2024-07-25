@@ -25,19 +25,19 @@ Version-pinning is a foundational aspect of this goal.
 >
 > This section of the versioning policy applies to Terraform Core (e.g.: the `terraform` binary).
 
-The versioning policy _must_ satisfy the following requirements:
+The versioning policy _must_ adhere to the following requirements:
 
-* starts with the latest (generally) available minor version release (e.g.: `>= 1.4.0`)
-* contains all possible patch-level releases under this range (e.g.: `1.4.1`)
-* ends with excluding the next available minor version release (e.g.: `< 1.5.0`)
+* starts with the latest (generally) available minor version release (e.g.: `>= 1.9.0`)
+* contains all possible patch-level releases under this range (e.g.: `1.9.1`)
+* ends with excluding the next available minor version release (e.g.: `< 1.10.0`)
 
-As an example, if the currently available version is `1.4.1`, then the following configuration is the _only_ acceptable version constraint for `terraform`:
+As an example, if the currently available version is `1.9.1`, then the following configuration is the _only_ acceptable version constraint for `terraform`:
 
 ```hcl
-required_version = ">= 1.4.0, < 1.5.0"
+required_version = ">= 1.9.0, < 2.0.0"
 ```
 
-This configuration is expected to be written in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
+Define this configuration item in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
 
 ## Terraform Plugins
 
@@ -49,9 +49,9 @@ This section contains subsections outlining first-party (e.g.: providers under t
 
 ### Providers under the `hashicorp` Namespace:
 
-First-party providers are considered as _acceptable_ for ranged upgrades inside the currently available major-version range.
+First-party providers are eligible for _ranged upgrades_ inside the currently available major-version range.
 
-The versioning policy _must_ satisfy the following requirements:
+The versioning policy _must_ adhere to the following requirements:
 
 * starts with the latest (generally) available patch-level version release (e.g.: `>= 5.0.1`)
 * contains all possible patch-level releases under this range (e.g.: `5.0.2`)
@@ -66,13 +66,13 @@ provider = {
 }
 ```
 
-This configuration is expected to be written in the `required_providers` block in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
+Define this configuration item in the `required_providers` block in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
 
 ### Providers *not* under the `hashicorp` Namespace:
 
-Third-party providers, whether partner- or community-maintained are not considered as _acceptable_ for ranged upgrades.
+Third-party providers, whether partner- or community-maintained aren't considered as _acceptable_ for ranged upgrades.
 
-The versioning policy _must_ satisfy the following requirements:
+The versioning policy _must_ adhere to the following requirements:
 
 * starts with a specific patch-level version release (e.g.: `1.2.3`)
 * contains no other configuration
@@ -86,7 +86,7 @@ provider = {
 }
 ```
 
-This configuration is expected to be written in the `required_providers` block in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
+Define this configuration item in the `required_providers` block in the [`terraform` stanza](https://developer.hashicorp.com/terraform/language/settings) inside `terraform.tf`.
 
 ## GitHub Actions
 
@@ -94,7 +94,7 @@ This configuration is expected to be written in the `required_providers` block i
 >
 > This section of the versioning policy applies to GitHub Actions.
 
-The versioning policy _must_ satisfy the following requirements:
+The versioning policy _must_ adhere to the following requirements:
 
 * starts with a specific patch-level version release (e.g.: `1.2.3`)
 * contains no other configuration
@@ -110,9 +110,10 @@ action = {
 ```
 
 This configuration is expected to be written in the `actions_config` variable inside [`github-organization/variables.tf`](https://github.com/workloads/github-organization/blob/main/variables.tf).
+Define this configuration item in the `actions_config` variable inside [`github-organization/variables.tf`](https://github.com/workloads/github-organization/blob/main/variables.tf).
 
-Terraform will [process](https://github.com/workloads/github-organization/blob/main/actions.tf) the version constraint and retrieve the associated _committish_ to generate repository-specific Workflow templates.
+Terraform [processes](https://github.com/workloads/github-organization/blob/main/actions.tf) the version constraint and retrieves the associated _committish_ to generate repository-specific Workflow templates.
 
 ## Notes
 
-For tooling that is not explicitly described in this versioning policy, operate with the strictest constraint possible.
+For tooling that's not explicitly described in this versioning policy, operate with the strictest constraint possible.

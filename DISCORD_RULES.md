@@ -1,6 +1,6 @@
 # Discord Rules
 
-> This document describes the Rules for the Discord Community at [go.workloads.io/discord](https://go.workloads.io/discord).
+> This document describes the rules for the Discord community at [go.workloads.io/discord](https://go.workloads.io/discord).
 
 ## Table of Contents
 
@@ -16,13 +16,15 @@
 
 Be conscious of the words and phrases you choose when communicating with others.
 
+<!-- vale alex.ProfanityMaybe = NO -->
 Sexist, racist, and other exclusionary comments are *never* welcome in this community.
+<!-- vale alex.ProfanityMaybe = YES -->
 
 ## Don't be disruptive
 
 Avoid posting lots of (short) messages in rapid succession, as they may be disruptive.
 
-Avoid posting outsized amounts of self-promotional material.
+Avoid posting excessive amounts of self-promotional material.
 
 ## Help us
 
